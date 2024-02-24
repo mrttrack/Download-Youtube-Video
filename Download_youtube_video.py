@@ -2,6 +2,15 @@ from pytube import YouTube
 import pyttsx3
 import os
 
+'''
+Instructions:
+-> Libraries must be installed, You can do it by simply using "pip install -r requirements.txt".
+-> You have to Provitde a Youtube Video url to dowload that specific video for you.
+Thank You😊
+
+'''
+
+
 def speak(text):
     engine = pyttsx3.init()
     engine.say(text)
